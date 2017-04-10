@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(i);
 //            }
 //        });
-//
 //        // method to be called on clicking phrases
 //        phrases.setOnClickListener(new View.OnClickListener() {
 //            @Override
