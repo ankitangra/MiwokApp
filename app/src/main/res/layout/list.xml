@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container">
+
+    <ImageView
+        android:layout_height="88dp"
+        android:layout_width="88dp"
+        android:background="@color/tan_background"
+        android:id="@+id/icon"
+        />
+
+    <LinearLayout
+        android:id="@+id/mylayout"
+        android:layout_height="88dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        tools:background="@color/numberBackground"
+        android:padding="16dp"
+
+        >
+    <TextView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        tools:text="one"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@+id/english_word"
+        android:layout_weight="1"
+
+        />
+
+    <TextView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        tools:text="ek"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:id="@+id/hindi_word"
+
+        />
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_height="24dp"
+        android:layout_width="0dp"
+        android:id="@+id/icon2"
+        android:src="@drawable/ic_action_name"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"/>
+
+
+</LinearLayout>
